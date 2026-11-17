@@ -8,23 +8,23 @@ The site is one page, `index.html`: a short summary in Arabic, then in English, 
 
 ## العربية
 
-سياسة الخصوصية وشروط الاستخدام لتطبيق «AI Keyboard»: لوحة مفاتيح عربية وإنجليزية لأندرويد مع إملاء صوتي وإعادة صياغة بالذكاء الاصطناعي.
+سياسة الخصوصية وشروط الاستخدام لتطبيق «AI Keyboard»: لوحة مفاتيح عربية وإنجليزية لأندرويد مع كلمات مقترحة وإملاء صوتي وإعادة صياغة بالذكاء الاصطناعي.
 
 - [سياسة الخصوصية](ar/privacy.md)
 - [شروط الاستخدام](ar/terms.md)
 
-النسخة: 2026-11-17 (3). النص العربي هو الأصل وهو المضمَّن في التطبيق، والنص الإنجليزي ترجمة له. عند أي اختلاف بينهما يُعتمد النص العربي.
+النسخة: 2026-11-17 (4). النص العربي هو الأصل وهو المضمَّن في التطبيق، والنص الإنجليزي ترجمة له. عند أي اختلاف بينهما يُعتمد النص العربي.
 
 </div>
 
 ## English
 
-The privacy policy and terms of use of "AI Keyboard": an Arabic and English keyboard for Android with voice dictation and AI rewriting.
+The privacy policy and terms of use of "AI Keyboard": an Arabic and English keyboard for Android with suggested words, voice dictation and AI rewriting.
 
 - [Privacy Policy](en/privacy.md)
 - [Terms of Use](en/terms.md)
 
-Version: 2026-11-17 (3). The Arabic text is the original and is the one bundled with the app. The English text is a translation of it. If the two differ, the Arabic text applies.
+Version: 2026-11-17 (4). The Arabic text is the original and is the one bundled with the app. The English text is a translation of it. If the two differ, the Arabic text applies.
 
 ## Keeping the texts in step
 

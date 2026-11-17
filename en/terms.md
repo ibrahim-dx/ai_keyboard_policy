@@ -2,15 +2,15 @@
 
 # Terms of Use
 
-Last updated: 2026-11-17 (3)
+Last updated: 2026-11-17 (4)
 
-These are the terms of use of "AI Keyboard". The app is a personal, non-commercial project installed directly on the phone. The app asks for your consent to them and to the [Privacy Policy](privacy.md) once, the first time it is opened. Rewriting, dictation and the clipboard history do not work before that; typing does not need it.
+These are the terms of use of "AI Keyboard". The app is a personal, non-commercial project installed directly on the phone. The app asks for your consent to them and to the [Privacy Policy](privacy.md) once, the first time it is opened. Rewriting, dictation and the clipboard history do not work before that; typing and suggested words do not need it.
 
 The app's interface is in Arabic. Button names are given here in English, with the Arabic label in brackets the first time each appears.
 
 ## 1. What the app is
 
-The app is a keyboard with voice dictation, AI rewriting and a clipboard for copied text. It is provided as is, without warranty of any kind, and with no commitment to update or support it.
+The app is a keyboard with suggested words, voice dictation, AI rewriting and a clipboard for copied text. It is provided as is, without warranty of any kind, and with no commitment to update or support it.
 
 ## 2. AI output
 
@@ -25,32 +25,39 @@ The app is a keyboard with voice dictation, AI rewriting and a clipboard for cop
 - You choose the providers and obtain their keys. Your use of each provider is subject to its terms, policies, limits and pricing.
 - Any cost incurred on your keys is your responsibility. Free-tier limits and models change without notice.
 - Keep your keys secret. If you suspect that a key has leaked, revoke it on the provider's site.
-- When a provider fails, the text is sent automatically to the next provider in your list. Order your list, and enable only the providers you are willing to have receive your text.
+- When a provider fails, the text, or the recording of a dictation, is sent automatically to the next provider in your list. Order your list, and enable only the providers you are willing to have receive your text and your voice.
 
 ## 4. Sensitive text
 
-Do not send confidential text or other people's data for rewriting to a provider that may use text for training. For such text use "Sensitive mode" (الوضع الحسّاس) with a trusted provider or a local server.
+Do not send confidential text or other people's data for rewriting to a provider that may use text for training, and do not dictate such things while your dictation goes through a provider like that. For such text use "Sensitive mode" (الوضع الحسّاس) with a trusted provider or a local server.
 
 ## 5. Voice dictation
 
-Speech recognition is provided by the system service on your phone and is subject to its terms. Its accuracy varies, and it may miss a word between one sentence and the next, so review dictated text.
+- Speech is transcribed by the provider in your list, or by the system service on your phone, and is subject to the terms, limits and pricing of whoever does it.
+- Its accuracy varies. It may write a word you did not say, especially in a short or noisy recording, and the system service may miss a word between one sentence and the next. Review dictated text before you send it.
+- If the connection drops before the text arrives, press "Try again" (أعد المحاولة) before you go on typing: the recording is deleted at the next key.
+- Do not record other people's speech without their knowledge.
 
-## 6. Clipboard
+## 6. Suggested words
+
+Suggestions come from a limited dictionary inside the app: it may not know your word, and it may suggest something you did not mean. None of them is written without your press, and you are responsible for what you choose.
+
+## 7. Clipboard
 
 The clipboard history keeps what you copy on your phone so that you can paste it later. Do not rely on it to keep what matters to you: a text is deleted after an hour unless you pin it, and everything goes when the app's data is cleared. Do not pin passwords or card numbers in it.
 
-## 7. Acceptable use
+## 8. Acceptable use
 
 Do not use the app for anything that breaks the applicable laws or the terms of the providers you use.
 
-## 8. Limitation of liability
+## 9. Limitation of liability
 
 To the fullest extent the law allows, the owner of the project is not liable for any damage arising from using the app or from being unable to use it, including: wrong text that was sent, lost data, costs with a provider, or a provider's outage.
 
-## 9. Rights
+## 10. Rights
 
-The code and the design belong to the owner of the project. All rights are reserved unless the repository states a licence explicitly. Provider names and marks belong to their owners, and the app is not affiliated with any of them.
+The code, the design and the word lists belong to the owner of the project. All rights are reserved unless the repository states a licence explicitly. Provider names and marks belong to their owners, and the app is not affiliated with any of them.
 
-## 10. Changes to the terms
+## 11. Changes to the terms
 
 These terms may change as the app develops. Changes are recorded in this file and their dates are kept in the repository's history. If their version changes, the app asks again.
