@@ -2,7 +2,7 @@
 
 # Privacy Policy
 
-Last updated: 2026-11-17 (5)
+Last updated: 2026-11-17 (6)
 
 This is the privacy policy of "AI Keyboard": an Arabic and English keyboard for Android with suggested words, voice dictation, AI rewriting and a clipboard for copied text. The app is a personal project installed directly on the phone. It has no servers and no accounts.
 
@@ -13,12 +13,12 @@ The app's interface is in Arabic. Button names are given here in English, with t
 - What you type goes only to the app you are typing in. The keyboard does not store or log it, and the words it suggests come from a dictionary inside the app that does not learn from what you type.
 - No ads, no analytics, no tracking, no accounts.
 - Nothing leaves your phone unless you ask: text when you press the rewrite button `✦`, and the recording of a dictation when you end it, if your dictation goes through a provider. Both are sent to a provider you chose, and the recording is then deleted from your phone.
-- What you copy is kept in the keyboard's clipboard for one hour, on your phone only, and you can switch that off.
+- What you copy is kept in the keyboard's clipboard until you delete it or newer copies push it out, on your phone only, and you can shorten that or switch it off.
 - Provider keys are stored encrypted, on your phone only.
 
 ## What the keyboard handles
 
-**What you type.** Every keyboard sees what is typed with it, which is why Android shows a general warning when any keyboard is enabled. This keyboard passes the characters to the app you are typing in. It does not write them to any file or log, keeps no history of what was typed, and does not learn from it. The one exception is the emoji you last picked from the emoji panel, so that they come first next time.
+**What you type.** Every keyboard sees what is typed with it, which is why Android shows a general warning when any keyboard is enabled. This keyboard passes the characters to the app you are typing in. It does not write them to any file or log, keeps no history of what was typed, and does not learn from it. The one exception is the emoji you last picked from the emoji panel, so that they come first next time, and you can switch that off on the "Emoji" (الإيموجي) page in the app.
 
 **What it reads from the field.** To delete a character or a word, to put a space before dictated text, and to suggest a word, the keyboard reads a few characters before the cursor. When you press `✦` it reads the field's text and where the selection is, and it reads the field once more on "Undo" (تراجع) to make sure the text has not changed. The field is not read for any other purpose.
 
@@ -30,7 +30,7 @@ The app's interface is in Arabic. Button names are given here in English, with t
 - To suggest, the keyboard reads, after each character, the word you are typing and the two words before it, and looks them up in the dictionary. This happens in memory and on your phone only: nothing is sent and nothing is written to storage.
 - The keyboard does not change what you typed by itself. A suggestion is written only when you press it.
 - No suggestions appear, and the field is not read for them, in password fields and private fields, in number, address and e-mail fields, or in a field whose app asks for no suggestions.
-- Suggestions need no consent, because they keep nothing and send nothing. You switch them off on the "Keyboard" (اللوحة) page in the app.
+- Suggestions need no consent, because they keep nothing and send nothing. You switch them off on the "Typing" (الكتابة) page in the app.
 
 ## When text or sound leaves your phone
 
@@ -51,13 +51,13 @@ Providers listed in the app: Groq, Google Gemini, OpenRouter, Cloudflare Workers
 
 ### Voice dictation
 
-Dictation has two engines, and you choose between them on the "Keyboard" page in the app. With either, the microphone opens only at your press, and closes as soon as the keyboard is hidden or the field changes.
+Dictation has two engines, and you choose between them on the "Voice input" (الإدخال الصوتي) page in the app. With either, the microphone opens only at your press, and closes as soon as the keyboard is hidden or the field changes.
 
 **Through an AI provider.** This is the one used when you choose a provider for it, or whenever your list has an enabled provider that transcribes speech.
 
 - When you press the microphone, the keyboard itself records your voice, into a temporary file inside the app's private storage. Nothing is sent while you speak.
 - When you end the dictation, with the red button, with `✦`, or by pressing any key, the recording is sent straight from your phone to one provider, with your own key and through no intermediate server, and comes back as text that is typed into the field.
-- **You choose who receives the recording**, on the "Keyboard" page. If you choose one provider, the recording is sent to no other, even when that provider fails, and a dictation does not start while it is not ready. If you leave it on "Automatic" (تلقائي), the first provider in your list that transcribes speech receives it, and if that one is busy or down the same recording is sent to the next.
+- **You choose who receives the recording**, on the "Voice input" page. If you choose one provider, the recording is sent to no other, even when that provider fails, and a dictation does not start while it is not ready. If you leave it on "Automatic" (تلقائي), the first provider in your list that transcribes speech receives it, and if that one is busy or down the same recording is sent to the next.
 - Of the listed providers, these transcribe speech: Groq, Google Gemini, Mistral, OpenAI, and any compatible server you add yourself and name a model for. The name of the one receiving the recording is shown in the strip while it is transcribed. There, the sound is covered by that provider's policy, as text is, and its privacy note is written on its badge.
 - The recording is deleted from your phone as soon as the text arrives. If it could not be sent, it stays so that it can be sent again with "Try again" (أعد المحاولة), and is then deleted at the next key you press, when another recording starts, when the field changes, or when the keyboard is hidden.
 - A recording with no audible voice in it is not sent to anyone. The longest recording is five minutes.
@@ -79,28 +79,31 @@ The app does not connect to the internet in any other case: no automatic updates
 
 ## Clipboard
 
-- **Clipboard history.** When you copy text in any app while this is your selected keyboard, the keyboard reads it and keeps it on your phone, so that you can paste it later from the clipboard button. Only text is kept, the last 20 copies, and each one is deleted an hour after it was copied. For two minutes the keyboard also offers, in its strip, to paste what you just copied with one press.
+- **Clipboard history.** When you copy text in any app while this is your selected keyboard, the keyboard reads it and keeps it on your phone, so that you can paste it later from the clipboard button. Each time the keyboard appears, it also reads what is on the phone's clipboard and adds it to the history if it is not there, so that it does not miss what was copied while it was away. Only text is kept, the last 20 copies, and they stay until you delete them or newer ones push them out. On the "Clipboard" (الحافظة) page in the app you can make that 40, or give each text a lifetime: a day, or an hour. For two minutes the keyboard also offers, in its strip, to paste what you just copied with one press, and you can switch that offer off on the same page.
 - **Pinned texts.** What you pin from the history, or add in the app, stays until you delete it.
 - **What is not kept.** Anything the app you copied from marked as sensitive (as password managers do on Android 13 and later), anything you copy while typing in a password field or a private field, images and files, and text longer than 5000 characters.
-- **A caution.** A password copied by an app that does not mark it as sensitive may reach the history. Delete it from there, or switch the history off if you copy passwords often.
+- **A caution.** A password copied by an app that does not mark it as sensitive may reach the history, and stays there until you delete it unless you chose a lifetime. Delete it from there, choose a short lifetime, or switch the history off if you copy passwords often.
+- **It is not your phone's history.** Android keeps only the last thing copied, and gives keyboards no history of what came before. Samsung's clipboard history belongs to Samsung's keyboard, and no other keyboard can read it. So this is the keyboard's own history, and it starts from your consent.
 - **It stays on your phone.** The history is never sent anywhere, and is not part of "Export settings" (تصدير الإعدادات) or of any backup.
-- **Control.** Nothing is kept before you consent. You clear the history with "Clear history" (مسح السجل) on the keyboard or in the app, and switch it off on the "Clipboard" (الحافظة) page in the app. Switching it off, or withdrawing your consent, deletes what it holds and keeps the pinned texts.
+- **Control.** Nothing is kept before you consent. You clear the history with "Clear history" (مسح السجل) on the keyboard or in the app, and choose its lifetime and size, or switch it off, on the "Clipboard" page in the app. Switching it off, or withdrawing your consent, deletes what it holds and keeps the pinned texts.
 - The "Copy" (نسخ) button on the draft puts the result on the phone's clipboard, which is shared between your apps like any other copy. The "Paste and test" (لصق واختبار) button on a provider's page reads the clipboard once, when you press it, to take the key you copied.
 
 ## Sensitive fields
 
 In password fields of every kind, and in fields whose app asks keyboards not to learn from them (such as private browsing), the rewrite button and the microphone are disabled and say why, and no words are suggested. In these fields nothing you copy is kept in the clipboard history, the emoji you type are not remembered, and if the keyboard offers to paste what you just copied it does so without showing the text. In password fields the key preview bubble is not shown either.
 
+**Password manager suggestions.** On Android 11 and later, the keyboard's strip shows what the password manager you chose in your phone's settings suggests (Google Password Manager, Samsung Pass, or another): your saved sign-ins, or a strong new password. The keyboard tells the system only where they go, how large they are and in which colours. The suggestions are drawn by the system itself, in a surface the keyboard cannot read, so it does not know what they say, and a press on one fills the field through the system without what is filled passing through the keyboard. They may also appear in other fields your manager fills, such as a user name or an address. The keyboard keeps nothing of them and sends nothing, and what the manager suggests is covered by its own policy.
+
 ## What is stored on your phone
 
 | What is stored | Where | Notes |
 |---|---|---|
-| Keyboard settings (language, theme, vibration, key height, digit style, whether the clipboard history is on, whether suggested words are on, the dictation engine) | App settings | Included in "Export settings" |
+| Keyboard settings (language, theme, key roundness and height, letter size, side margin, vibration and key sound, digit style, whether suggested words are on, the dictation engine, emoji size and whether they are remembered, whether the clipboard history is on, its lifetime and size, and the paste offer) | App settings | Included in "Export settings" |
 | The list of providers, their order, models (the dictation model among them) and addresses, the provider you chose for dictation, and your Cloudflare account ID if you entered one | App settings | Included in "Export settings" |
 | Styles you created or edited (name and instruction), and the last style you used | App settings | Included in "Export settings" |
 | Your consent to this policy and the terms of use (the version you accepted) | App settings | Included in "Export settings" |
-| The emoji you used last, up to 32 | App settings | Kept only after you consent; included in "Export settings" |
-| The clipboard history: the last 20 texts you copied, for one hour each, and the texts you pinned | A file of its own inside the app | Kept only after you consent; never part of any export |
+| The emoji you used last, up to 32 | App settings | Kept only after you consent; switched off on the "Emoji" page; included in "Export settings" |
+| The clipboard history: the last 20 texts you copied (or 40), until you delete them or for the lifetime you choose, and the texts you pinned | A file of its own inside the app | Kept only after you consent; never part of any export |
 | The recording of a dictation in progress, when dictation goes through a provider | A temporary file inside the app | Deleted as soon as it is transcribed; does not outlive the keyboard being hidden; never part of any export |
 | Provider keys | Encrypted storage backed by the Android Keystore | Never shown in full, never part of any export |
 
