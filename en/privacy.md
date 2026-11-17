@@ -43,6 +43,10 @@ Providers listed in the app: Groq, Google Gemini, OpenRouter, Cloudflare Workers
 - The audio is covered by the policy of the recognition service installed on your phone, and may be processed on its servers.
 - Listening stops as soon as the keyboard is hidden or the field changes.
 
+### Testing a provider from the settings
+
+When you test a provider from its page in the settings (testing the key, loading its model list, or the quality test), the app sends that provider a short request with a fixed sample text, and fetches its model list and what is left of its free allowance where the provider reports one. Nothing you typed is part of it.
+
 ### Nothing else
 
 The app does not connect to the internet in any other case: no automatic updates, no crash reports, no usage statistics.

@@ -1,5 +1,9 @@
 # AI Keyboard: Privacy Policy and Terms of Use
 
+Site: https://ibrahim-dx.github.io/ai_keyboard_policy/
+
+The site is one page, `index.html`: a short summary in Arabic, then in English, with links to the full text below.
+
 <div dir="rtl">
 
 ## العربية
@@ -29,5 +33,6 @@ The app's repository (`ibrahim-dx/ai_keyboard`) bundles the Arabic text as `PRIV
 1. Edit the Arabic text here and in the app's repository.
 2. Bring the English translation in line with it.
 3. Put the same new date after `آخر تحديث:` and `Last updated:` in the four files here and the two files of the app, and set `policyVersion` in the app's `lib/policy.dart` to it. The keyboard then asks for consent again at the next use.
+4. Bring the summary in `index.html` in line, in both languages, with the new date.
 
 The four documents have the same sections in the same order, so a change in one is easy to find in the others.
