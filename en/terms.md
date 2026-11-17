@@ -2,7 +2,7 @@
 
 # Terms of Use
 
-Last updated: 2026-11-17 (4)
+Last updated: 2026-11-17 (5)
 
 These are the terms of use of "AI Keyboard". The app is a personal, non-commercial project installed directly on the phone. The app asks for your consent to them and to the [Privacy Policy](privacy.md) once, the first time it is opened. Rewriting, dictation and the clipboard history do not work before that; typing and suggested words do not need it.
 
@@ -25,7 +25,7 @@ The app is a keyboard with suggested words, voice dictation, AI rewriting and a 
 - You choose the providers and obtain their keys. Your use of each provider is subject to its terms, policies, limits and pricing.
 - Any cost incurred on your keys is your responsibility. Free-tier limits and models change without notice.
 - Keep your keys secret. If you suspect that a key has leaked, revoke it on the provider's site.
-- When a provider fails, the text, or the recording of a dictation, is sent automatically to the next provider in your list. Order your list, and enable only the providers you are willing to have receive your text and your voice.
+- When a provider fails, the text, or the recording of a dictation, is sent automatically to the next provider in your list. Order your list, and enable only the providers you are willing to have receive your text and your voice. If you choose one provider for dictation, your recording goes to no other.
 
 ## 4. Sensitive text
 

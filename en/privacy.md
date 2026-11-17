@@ -2,7 +2,7 @@
 
 # Privacy Policy
 
-Last updated: 2026-11-17 (4)
+Last updated: 2026-11-17 (5)
 
 This is the privacy policy of "AI Keyboard": an Arabic and English keyboard for Android with suggested words, voice dictation, AI rewriting and a clipboard for copied text. The app is a personal project installed directly on the phone. It has no servers and no accounts.
 
@@ -53,16 +53,17 @@ Providers listed in the app: Groq, Google Gemini, OpenRouter, Cloudflare Workers
 
 Dictation has two engines, and you choose between them on the "Keyboard" page in the app. With either, the microphone opens only at your press, and closes as soon as the keyboard is hidden or the field changes.
 
-**Through an AI provider.** This is the one used whenever your list has an enabled provider that transcribes speech.
+**Through an AI provider.** This is the one used when you choose a provider for it, or whenever your list has an enabled provider that transcribes speech.
 
 - When you press the microphone, the keyboard itself records your voice, into a temporary file inside the app's private storage. Nothing is sent while you speak.
-- When you end the dictation, with the red button, with `✦`, or by pressing any key, the recording is sent straight from your phone to the first provider in your list that transcribes speech, with your own key and through no intermediate server, and comes back as text that is typed into the field. If that provider is busy or down, the same recording is sent to the next one.
+- When you end the dictation, with the red button, with `✦`, or by pressing any key, the recording is sent straight from your phone to one provider, with your own key and through no intermediate server, and comes back as text that is typed into the field.
+- **You choose who receives the recording**, on the "Keyboard" page. If you choose one provider, the recording is sent to no other, even when that provider fails, and a dictation does not start while it is not ready. If you leave it on "Automatic" (تلقائي), the first provider in your list that transcribes speech receives it, and if that one is busy or down the same recording is sent to the next.
 - Of the listed providers, these transcribe speech: Groq, Google Gemini, Mistral, OpenAI, and any compatible server you add yourself and name a model for. The name of the one receiving the recording is shown in the strip while it is transcribed. There, the sound is covered by that provider's policy, as text is, and its privacy note is written on its badge.
 - The recording is deleted from your phone as soon as the text arrives. If it could not be sent, it stays so that it can be sent again with "Try again" (أعد المحاولة), and is then deleted at the next key you press, when another recording starts, when the field changes, or when the keyboard is hidden.
 - A recording with no audible voice in it is not sent to anyone. The longest recording is five minutes.
 - "Sensitive mode" applies to sound as it does to text.
 
-**Through the Android system.** This is the one used if you choose it, or if your list has no enabled provider that transcribes speech.
+**Through the Android system.** This is the one used if you choose it, or if you left the choice on "Automatic" and your list has no enabled provider that transcribes speech.
 
 - Recording is done by the speech recognition service of the Android system on your phone (Google's on most devices), not by this app. The app asks for the service and receives only the resulting text. It stores no audio.
 - The audio is covered by the policy of the recognition service installed on your phone, and may be processed on its servers.
@@ -95,7 +96,7 @@ In password fields of every kind, and in fields whose app asks keyboards not to 
 | What is stored | Where | Notes |
 |---|---|---|
 | Keyboard settings (language, theme, vibration, key height, digit style, whether the clipboard history is on, whether suggested words are on, the dictation engine) | App settings | Included in "Export settings" |
-| The list of providers, their order, models (the dictation model among them) and addresses, and your Cloudflare account ID if you entered one | App settings | Included in "Export settings" |
+| The list of providers, their order, models (the dictation model among them) and addresses, the provider you chose for dictation, and your Cloudflare account ID if you entered one | App settings | Included in "Export settings" |
 | Styles you created or edited (name and instruction), and the last style you used | App settings | Included in "Export settings" |
 | Your consent to this policy and the terms of use (the version you accepted) | App settings | Included in "Export settings" |
 | The emoji you used last, up to 32 | App settings | Kept only after you consent; included in "Export settings" |
