@@ -2,7 +2,7 @@
 
 # Privacy Policy
 
-Last updated: 2026-11-17 (2)
+Last updated: 2026-11-17 (3)
 
 This is the privacy policy of "AI Keyboard": an Arabic and English keyboard for Android with voice dictation, AI rewriting and a clipboard for copied text. The app is a personal project installed directly on the phone. It has no servers and no accounts.
 
@@ -106,11 +106,11 @@ Reading what you copy needs no permission: Android allows it for the keyboard yo
 
 ## Your consent
 
-- The keyboard asks for your consent once only: at the first press on the rewrite button, the microphone or the clipboard, before the field is read or anything is sent or kept. One consent covers all three.
+- The app asks for your consent once only: on the "Privacy and terms" (الخصوصية والشروط) page, which it shows the first time it is opened. This policy and the terms of use can be read there in full at any time.
+- Before you consent, rewriting, dictation and the clipboard history do not work. If you press one of their buttons on the keyboard, it opens that page for you; the field is not read, and nothing is sent or kept.
 - Typing needs no consent, and sends nothing.
-- This policy and the terms of use can be read in full at any time under "Privacy and terms" (الخصوصية والشروط) in the app, and from the "Read the policy" (اقرأ السياسة) button when you are asked.
-- You can withdraw your consent on the same page. The clipboard history and the recent emoji are then deleted, and the keyboard asks again at the next use.
+- You can withdraw your consent on the same page. The clipboard history and the recent emoji are then deleted, and the three features stop until you consent again.
 
 ## Changes to this policy
 
-Any change in the app's behaviour that affects privacy is recorded in this file, and the date of each change is kept in the repository's history. If the version of the policy changes, the keyboard asks again at the next use.
+Any change in the app's behaviour that affects privacy is recorded in this file, and the date of each change is kept in the repository's history. If the version of the policy changes, the app asks again.

@@ -2,9 +2,9 @@
 
 # Terms of Use
 
-Last updated: 2026-11-17 (2)
+Last updated: 2026-11-17 (3)
 
-These are the terms of use of "AI Keyboard". The app is a personal, non-commercial project installed directly on the phone. The keyboard asks for your consent to them and to the [Privacy Policy](privacy.md) once: the first time you use rewriting, dictation or the clipboard. Typing needs no consent.
+These are the terms of use of "AI Keyboard". The app is a personal, non-commercial project installed directly on the phone. The app asks for your consent to them and to the [Privacy Policy](privacy.md) once, the first time it is opened. Rewriting, dictation and the clipboard history do not work before that; typing does not need it.
 
 The app's interface is in Arabic. Button names are given here in English, with the Arabic label in brackets the first time each appears.
 
@@ -53,4 +53,4 @@ The code and the design belong to the owner of the project. All rights are reser
 
 ## 10. Changes to the terms
 
-These terms may change as the app develops. Changes are recorded in this file and their dates are kept in the repository's history. If their version changes, the keyboard asks again at the next use.
+These terms may change as the app develops. Changes are recorded in this file and their dates are kept in the repository's history. If their version changes, the app asks again.
