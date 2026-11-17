@@ -2,9 +2,9 @@
 
 # Privacy Policy
 
-Last updated: 2026-11-17
+Last updated: 2026-11-17 (2)
 
-This is the privacy policy of "AI Keyboard": an Arabic and English keyboard for Android with voice dictation and AI rewriting. The app is a personal project installed directly on the phone. It has no servers and no accounts.
+This is the privacy policy of "AI Keyboard": an Arabic and English keyboard for Android with voice dictation, AI rewriting and a clipboard for copied text. The app is a personal project installed directly on the phone. It has no servers and no accounts.
 
 The app's interface is in Arabic. Button names are given here in English, with the Arabic label in brackets the first time each appears.
 
@@ -12,23 +12,27 @@ The app's interface is in Arabic. Button names are given here in English, with t
 
 - What you type goes only to the app you are typing in. The keyboard does not store or log it.
 - No ads, no analytics, no tracking, no accounts.
-- Text leaves your phone only when you press the rewrite button `✦` and choose a style, and then it goes to the provider you chose.
+- Text leaves your phone only when you press the rewrite button `✦`, and then it goes to the provider you chose.
+- What you copy is kept in the keyboard's clipboard for one hour, on your phone only, and you can switch that off.
 - Provider keys are stored encrypted, on your phone only.
 
 ## What the keyboard handles
 
-**What you type.** Every keyboard sees what is typed with it, which is why Android shows a general warning when any keyboard is enabled. This keyboard passes the characters to the app you are typing in. It does not write them to any file or log, keeps no history of what was typed, and does not learn from it.
+**What you type.** Every keyboard sees what is typed with it, which is why Android shows a general warning when any keyboard is enabled. This keyboard passes the characters to the app you are typing in. It does not write them to any file or log, keeps no history of what was typed, and does not learn from it. The one exception is the emoji you last picked from the emoji panel, so that they come first next time.
 
 **What it reads from the field.** To delete a character or a word, and to put a space before dictated text, the keyboard reads a few characters before the cursor. When you press `✦` it reads the field's text and where the selection is, and it reads the field once more on "Undo" (تراجع) to make sure the text has not changed. The field is not read for any other purpose.
 
-**What stays in memory for a moment.** During a rewrite the keyboard keeps the original text and the draft in memory, so that it can offer "Replace" (استبدال) and "Undo". Both are cleared when the rewrite panel is closed, at the next edit, or when you move to another field. They are never written to storage.
+**What stays in memory for a moment.** During a rewrite the keyboard keeps the original text and the draft in memory, so that it can offer "Replace" (استبدال) and "Undo". During a dictation it keeps the text of what you dictated that time, so that it can be cleaned up if you end the dictation with `✦`. This is cleared when the rewrite panel is closed, at the next edit, or when you move to another field. It is never written to storage.
 
 ## When text leaves your phone
 
 ### AI rewriting
 
-- Nothing is sent until you press `✦` and then choose a style or type an instruction.
-- The target text (the selection, or the whole field) is sent with the style's instruction, straight from your phone to the provider, using your own key. The request passes through no intermediate server.
+- Nothing is sent without your press on `✦`: when you then choose a style or type an instruction, when you end a dictation with it, or when you use it to type a request in an empty field.
+- **Rewriting text that is there.** The target text (the selection, or the whole field) is sent with the style's instruction.
+- **Ending a dictation with the rewrite button.** Only what you dictated that time is sent, so that misheard words are corrected and punctuation is added. The red button ends a dictation without sending anything.
+- **"Write for me" (اكتب لي) in an empty field.** The request you typed or dictated is sent, and nothing else.
+- In every case the request goes straight from your phone to the provider, using your own key, and passes through no intermediate server. The result is shown as a draft, and is written into the field only when you press.
 - Providers are tried in the order you set. If the first is busy or down, the same text is sent to the next one in your list.
 - The name of the provider receiving the text is shown in the strip while it works, and then on the draft. Its privacy note is written on its badge in the settings.
 - Once the text reaches a provider it is covered by that provider's policy, not by this one. Some free tiers may use text to improve their products; this is stated on each provider's badge in the settings.
@@ -41,7 +45,7 @@ Providers listed in the app: Groq, Google Gemini, OpenRouter, Cloudflare Workers
 
 - Recording is done by the speech recognition service of the Android system on your phone (Google's on most devices), not by this app. The app asks for the service and receives only the resulting text. It stores no audio.
 - The audio is covered by the policy of the recognition service installed on your phone, and may be processed on its servers.
-- Listening stops as soon as the keyboard is hidden or the field changes.
+- A dictation goes on until you press the stop button. It stops by itself after about ten seconds of silence, and as soon as the keyboard is hidden or the field changes.
 
 ### Testing a provider from the settings
 
@@ -49,31 +53,39 @@ When you test a provider from its page in the settings (testing the key, loading
 
 ### Nothing else
 
-The app does not connect to the internet in any other case: no automatic updates, no crash reports, no usage statistics.
+The app does not connect to the internet in any other case: no automatic updates, no crash reports, no usage statistics. What is in the keyboard's clipboard is never sent anywhere.
+
+## Clipboard
+
+- **Clipboard history.** When you copy text in any app while this is your selected keyboard, the keyboard reads it and keeps it on your phone, so that you can paste it later from the clipboard button. Only text is kept, the last 20 copies, and each one is deleted an hour after it was copied. For two minutes the keyboard also offers, in its strip, to paste what you just copied with one press.
+- **Pinned texts.** What you pin from the history, or add in the app, stays until you delete it.
+- **What is not kept.** Anything the app you copied from marked as sensitive (as password managers do on Android 13 and later), anything you copy while typing in a password field or a private field, images and files, and text longer than 5000 characters.
+- **A caution.** A password copied by an app that does not mark it as sensitive may reach the history. Delete it from there, or switch the history off if you copy passwords often.
+- **It stays on your phone.** The history is never sent anywhere, and is not part of "Export settings" (تصدير الإعدادات) or of any backup.
+- **Control.** Nothing is kept before you consent. You clear the history with "Clear history" (مسح السجل) on the keyboard or in the app, and switch it off on the "Clipboard" (الحافظة) page in the app. Switching it off, or withdrawing your consent, deletes what it holds and keeps the pinned texts.
+- The "Copy" (نسخ) button on the draft puts the result on the phone's clipboard, which is shared between your apps like any other copy. The "Paste and test" (لصق واختبار) button on a provider's page reads the clipboard once, when you press it, to take the key you copied.
 
 ## Sensitive fields
 
-In password fields of every kind, and in fields whose app asks keyboards not to learn from them (such as private browsing), the rewrite button and the microphone are disabled and say why. In password fields the key preview bubble is not shown either.
+In password fields of every kind, and in fields whose app asks keyboards not to learn from them (such as private browsing), the rewrite button and the microphone are disabled and say why. In these fields nothing you copy is kept in the clipboard history, the emoji you type are not remembered, and if the keyboard offers to paste what you just copied it does so without showing the text. In password fields the key preview bubble is not shown either.
 
 ## What is stored on your phone
 
 | What is stored | Where | Notes |
 |---|---|---|
-| Keyboard settings (language, theme, vibration, key height, digit style) | App settings | Included in "Export settings" |
+| Keyboard settings (language, theme, vibration, key height, digit style, whether the clipboard history is on) | App settings | Included in "Export settings" |
 | The list of providers, their order, models and addresses, and your Cloudflare account ID if you entered one | App settings | Included in "Export settings" |
 | Styles you created or edited (name and instruction), and the last style you used | App settings | Included in "Export settings" |
-| Your consent to this policy and the terms of use (the date of the version you accepted) | App settings | Included in "Export settings" |
+| Your consent to this policy and the terms of use (the version you accepted) | App settings | Included in "Export settings" |
+| The emoji you used last, up to 32 | App settings | Kept only after you consent; included in "Export settings" |
+| The clipboard history: the last 20 texts you copied, for one hour each, and the texts you pinned | A file of its own inside the app | Kept only after you consent; never part of any export |
 | Provider keys | Encrypted storage backed by the Android Keystore | Never shown in full, never part of any export |
 
-"Export settings" (تصدير الإعدادات) copies the settings as text to the phone's clipboard, without the keys, and sends them nowhere.
+"Export settings" copies the settings as text to the phone's clipboard, without the keys, and sends them nowhere.
 
-Nothing you typed is stored, nor the texts you sent for rewriting, nor their results.
+No text you typed or dictated is stored, nor the texts you sent for rewriting, nor their results.
 
-The app is excluded from Android backup and from device-to-device transfer, so its settings and keys do not move to the cloud or to another phone.
-
-## Clipboard
-
-The "Copy" (نسخ) button on the draft puts the result on the phone's clipboard, which is shared between your apps like any other copy. The keyboard does not read the clipboard. The "Paste and test" (لصق واختبار) button on a provider's page reads it once, when you press it, to take the key you copied.
+The app is excluded from Android backup and from device-to-device transfer, so its settings, its keys and its clipboard history do not move to the cloud or to another phone.
 
 ## Permissions
 
@@ -83,19 +95,22 @@ The "Copy" (نسخ) button on the draft puts the result on the phone's clipboard
 | Internet | Sending rewrite requests when you ask for them. |
 | Input method service | So that the system treats the app as a keyboard. |
 
+Reading what you copy needs no permission: Android allows it for the keyboard you have selected.
+
 ## Deleting your data
 
 - Delete a key: from the provider's page in the companion app.
+- Clear the clipboard history or delete a pinned text: from the clipboard panel on the keyboard, or from the "Clipboard" page in the app.
 - Delete everything: clear the app's data from Android settings, or uninstall the app.
 - What was already sent to a provider is covered by that provider's policy, and is deleted through them.
 
 ## Your consent
 
-- The keyboard asks for your consent once only: at the first press on the rewrite button or the microphone, before the field is read or anything is sent. One consent covers both.
+- The keyboard asks for your consent once only: at the first press on the rewrite button, the microphone or the clipboard, before the field is read or anything is sent or kept. One consent covers all three.
 - Typing needs no consent, and sends nothing.
 - This policy and the terms of use can be read in full at any time under "Privacy and terms" (الخصوصية والشروط) in the app, and from the "Read the policy" (اقرأ السياسة) button when you are asked.
-- You can withdraw your consent on the same page. The keyboard then asks again at the next use.
+- You can withdraw your consent on the same page. The clipboard history and the recent emoji are then deleted, and the keyboard asks again at the next use.
 
 ## Changes to this policy
 
-Any change in the app's behaviour that affects privacy is recorded in this file, and the date of each change is kept in the repository's history. If the policy's date changes, the keyboard asks again at the next use.
+Any change in the app's behaviour that affects privacy is recorded in this file, and the date of each change is kept in the repository's history. If the version of the policy changes, the keyboard asks again at the next use.

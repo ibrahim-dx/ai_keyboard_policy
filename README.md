@@ -13,7 +13,7 @@ The site is one page, `index.html`: a short summary in Arabic, then in English, 
 - [سياسة الخصوصية](ar/privacy.md)
 - [شروط الاستخدام](ar/terms.md)
 
-النسخة: 2026-11-17. النص العربي هو الأصل وهو المضمَّن في التطبيق، والنص الإنجليزي ترجمة له. عند أي اختلاف بينهما يُعتمد النص العربي.
+النسخة: 2026-11-17 (2). النص العربي هو الأصل وهو المضمَّن في التطبيق، والنص الإنجليزي ترجمة له. عند أي اختلاف بينهما يُعتمد النص العربي.
 
 </div>
 
@@ -24,7 +24,7 @@ The privacy policy and terms of use of "AI Keyboard": an Arabic and English keyb
 - [Privacy Policy](en/privacy.md)
 - [Terms of Use](en/terms.md)
 
-Version: 2026-11-17. The Arabic text is the original and is the one bundled with the app. The English text is a translation of it. If the two differ, the Arabic text applies.
+Version: 2026-11-17 (2). The Arabic text is the original and is the one bundled with the app. The English text is a translation of it. If the two differ, the Arabic text applies.
 
 ## Keeping the texts in step
 
@@ -32,7 +32,7 @@ The app's repository (`ibrahim-dx/ai_keyboard`) bundles the Arabic text as `PRIV
 
 1. Edit the Arabic text here and in the app's repository.
 2. Bring the English translation in line with it.
-3. Put the same new date after `آخر تحديث:` and `Last updated:` in the four files here and the two files of the app, and set `policyVersion` in the app's `lib/policy.dart` to it. The keyboard then asks for consent again at the next use.
+3. Put the same new date after `آخر تحديث:` and `Last updated:` in the four files here and the two files of the app, and set `policyVersion` in the app's `lib/policy.dart` to it. For a second change on the same day, add a number in brackets after the date, as in `2026-11-17 (2)`. The keyboard then asks for consent again at the next use.
 4. Bring the summary in `index.html` in line, in both languages, with the new date.
 
 The four documents have the same sections in the same order, so a change in one is easy to find in the others.
