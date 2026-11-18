@@ -2,9 +2,9 @@
 
 # Terms of Use
 
-Last updated: 2026-11-17 (6)
+Last updated: 2026-11-18
 
-These are the terms of use of "AI Keyboard". The app is a personal, non-commercial project installed directly on the phone. The app asks for your consent to them and to the [Privacy Policy](privacy.md) once, the first time it is opened. Rewriting, dictation and the clipboard history do not work before that; typing and suggested words do not need it.
+These are the terms of use of "AI Keyboard". The app is a personal, non-commercial project installed directly on the phone. The app asks for your consent to them and to the [Privacy Policy](privacy.md) once, the first time it is opened. Rewriting, dictation and the clipboard do not work before that; typing and suggested words do not need it.
 
 The app's interface is in Arabic. Button names are given here in English, with the Arabic label in brackets the first time each appears.
 
@@ -26,6 +26,7 @@ The app is a keyboard with suggested words, voice dictation, AI rewriting and a 
 - Any cost incurred on your keys is your responsibility. Free-tier limits and models change without notice.
 - Keep your keys secret. If you suspect that a key has leaked, revoke it on the provider's site.
 - When a provider fails, the text, or the recording of a dictation, is sent automatically to the next provider in your list. Order your list, and enable only the providers you are willing to have receive your text and your voice. If you choose one provider for dictation, your recording goes to no other.
+- Your plan with a provider decides which models your key may use. The app tries the model you choose with one short request, which counts against your allowance. If a model is not available to your key, the keyboard uses the provider's other model, and the draft's label names the model that wrote it.
 
 ## 4. Sensitive text and passwords
 
@@ -46,7 +47,7 @@ Suggestions come from a limited dictionary inside the app: it may not know your 
 
 ## 7. Clipboard
 
-The clipboard history keeps what you copy on your phone so that you can paste it later. Do not rely on it to keep what matters to you: newer copies push out older ones when the history is full, a text is deleted after the lifetime you chose if you chose one, and everything goes when the app's data is cleared. Pin what you want to stay. Do not pin passwords or card numbers in it, and if a password you copied reaches it, delete it from there.
+The clipboard button shows what is on your phone's clipboard, which holds only the last thing copied: what you copied before it is not there. Deleting the current text on the keyboard deletes it from the phone's clipboard. If you switch on "Remember earlier copies" (تذكّر ما نسخته سابقًا), do not rely on it to keep what matters to you: newer copies push out older ones when the record is full, a text is deleted after the lifetime you chose if you chose one, and everything goes when the app's data is cleared. Pin what you want to stay. Do not pin passwords or card numbers, and if a password you copied is remembered, delete it from there.
 
 ## 8. Acceptable use
 
