@@ -2,7 +2,7 @@
 
 # Privacy Policy
 
-Last updated: 2026-11-18
+Last updated: 2026-11-18 (2)
 
 This is the privacy policy of "AI Keyboard": an Arabic and English keyboard for Android with suggested words, voice dictation, AI rewriting and a clipboard for copied text. The app is a personal project installed directly on the phone. It has no servers and no accounts.
 
@@ -18,7 +18,7 @@ The app's interface is in Arabic. Button names are given here in English, with t
 
 ## What the keyboard handles
 
-**What you type.** Every keyboard sees what is typed with it, which is why Android shows a general warning when any keyboard is enabled. This keyboard passes the characters to the app you are typing in. It does not write them to any file or log, keeps no history of what was typed, and does not learn from it. The one exception is the emoji you last picked from the emoji panel, so that they come first next time, and you can switch that off on the "Emoji" (الإيموجي) page in the app.
+**What you type.** Every keyboard sees what is typed with it, which is why Android shows a general warning when any keyboard is enabled. This keyboard passes the characters to the app you are typing in. It does not write them to any file or log, keeps no history of what was typed, and does not learn from it. The one exception is the emoji you last picked from the emoji panel, so that they come first next time, and with them the variant you chose for an emoji with a long press (a skin tone, for example); you can switch that off on the "Emoji" (الإيموجي) page in the app.
 
 **What it reads from the field.** To delete a character or a word, to put a space before dictated text, and to suggest a word, the keyboard reads a few characters before the cursor. When you press `✦` it reads the field's text and where the selection is, and it reads the field once more on "Undo" (تراجع) to make sure the text has not changed. The field is not read for any other purpose.
 
@@ -75,7 +75,7 @@ When you test a provider from its page in the settings (testing the key, opening
 
 ### Nothing else
 
-The app does not connect to the internet in any other case: no automatic updates, no crash reports, no usage statistics. What the keyboard reads of the phone's clipboard is never sent anywhere, and neither is what you type for the sake of suggested words.
+The app does not connect to the internet in any other case: no automatic updates, no crash reports, no usage statistics. What the keyboard reads of the phone's clipboard is never sent anywhere, and neither is what you type for the sake of suggested words. The emoji panel is a library from Google bundled with the app: it shows the emoji your phone's own font draws and does not connect to the internet, and its request for a newer emoji font from Google Play services is switched off.
 
 ## Clipboard
 
@@ -91,7 +91,7 @@ The app does not connect to the internet in any other case: no automatic updates
 
 ## Sensitive fields
 
-In password fields of every kind, and in fields whose app asks keyboards not to learn from them (such as private browsing), the rewrite button and the microphone are disabled and say why, and no words are suggested. In these fields the keyboard neither reads nor remembers what you copy, the emoji you type are not remembered, and if the keyboard offers to paste what you just copied it does so without showing the text. In password fields the key preview bubble is not shown either.
+In password fields of every kind, and in fields whose app asks keyboards not to learn from them (such as private browsing), the rewrite button and the microphone are disabled and say why, and no words are suggested. In these fields the keyboard neither reads nor remembers what you copy, the emoji you type are not remembered, nor the variant you choose for them, and if the keyboard offers to paste what you just copied it does so without showing the text. In password fields the key preview bubble is not shown either.
 
 **Password manager suggestions.** On Android 11 and later, the keyboard's strip shows what the password manager you chose in your phone's settings suggests (Google Password Manager, Samsung Pass, or another): your saved sign-ins, or a strong new password. The keyboard tells the system only where they go, how large they are and in which colours. The suggestions are drawn by the system itself, in a surface the keyboard cannot read, so it does not know what they say, and a press on one fills the field through the system without what is filled passing through the keyboard. They may also appear in other fields your manager fills, such as a user name or an address. The keyboard keeps nothing of them and sends nothing, and what the manager suggests is covered by its own policy.
 
@@ -104,6 +104,7 @@ In password fields of every kind, and in fields whose app asks keyboards not to 
 | Styles you created or edited (name and instruction), and the last style you used | App settings | Included in "Export settings" |
 | Your consent to this policy and the terms of use (the version you accepted) | App settings | Included in "Export settings" |
 | The emoji you used last, up to 32 | App settings | Kept only after you consent; switched off on the "Emoji" page; included in "Export settings" |
+| The variant you chose for each emoji (a skin tone, for example) | A file of its own for the emoji panel, inside the app | Kept only after you consent and while "Remember what I use" is on; never part of any export |
 | The texts you pinned, and what the keyboard remembers of what you copied if you switched remembering on: the last 20 texts (or 40), until you delete them or for the lifetime you choose | A file of its own inside the app | Only after you consent; never part of any export |
 | The recording of a dictation in progress, when dictation goes through a provider | A temporary file inside the app | Deleted as soon as it is transcribed; does not outlive the keyboard being hidden; never part of any export |
 | Provider keys | Encrypted storage backed by the Android Keystore | Never shown in full, never part of any export |
@@ -136,7 +137,7 @@ Reading what you copy needs no permission: Android allows it for the keyboard yo
 - The app asks for your consent once only: on the "Privacy and terms" (الخصوصية والشروط) page, which it shows the first time it is opened. This policy and the terms of use can be read there in full at any time.
 - Before you consent, rewriting, dictation and the clipboard do not work. If you press one of their buttons on the keyboard, it opens that page for you, and nothing is sent, recorded or kept.
 - Typing and suggested words need no consent, and send nothing.
-- You can withdraw your consent on the same page. The copies the keyboard remembered and the recent emoji are then deleted, and the three features stop until you consent again.
+- You can withdraw your consent on the same page. The copies the keyboard remembered, the recent emoji and the variants chosen for them are then deleted, and the three features stop until you consent again.
 
 ## Changes to this policy
 

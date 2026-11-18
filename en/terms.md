@@ -2,7 +2,7 @@
 
 # Terms of Use
 
-Last updated: 2026-11-18
+Last updated: 2026-11-18 (2)
 
 These are the terms of use of "AI Keyboard". The app is a personal, non-commercial project installed directly on the phone. The app asks for your consent to them and to the [Privacy Policy](privacy.md) once, the first time it is opened. Rewriting, dictation and the clipboard do not work before that; typing and suggested words do not need it.
 
@@ -59,7 +59,7 @@ To the fullest extent the law allows, the owner of the project is not liable for
 
 ## 10. Rights
 
-The code, the design and the word lists belong to the owner of the project. All rights are reserved unless the repository states a licence explicitly. Provider names and marks belong to their owners, and the app is not affiliated with any of them.
+The code, the design and the word lists belong to the owner of the project. All rights are reserved unless the repository states a licence explicitly. Provider names and marks belong to their owners, and the app is not affiliated with any of them. The emoji panel is a library from Google (Jetpack Emoji Picker) under the Apache 2.0 licence, and the emoji are drawn by your phone's own font.
 
 ## 11. Changes to the terms
 
